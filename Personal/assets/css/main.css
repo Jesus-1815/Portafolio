@@ -1372,12 +1372,19 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+  
+.footer .social-links a {
+  font-size: 22px;
+  color: var(--default-color);
+  transition: 0.3s ease;
 }
+
+.footer .social-links a:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px);
+}
+
 
 /*--------------------------------------------------------------
 # Contact Section
