@@ -21,6 +21,8 @@
     { name: "REACT",   src: "assets/img/REACT.png"},
     { name: "HTML", src: "assets/img/HTML.png" },
     { name: "CSS", src: "assets/img/CSS.png" },
+    { name: "FLOKZU", src: "assets/img/FLOKZU.png" },
+
   ];
 
   function resize() {
