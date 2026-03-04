@@ -60,7 +60,7 @@
   function createIconNodes(loadedIcons) {
     iconNodes.length = 0;
     // Tamaños variados para que se vea natural
-    const sizes = [200, 72, 81, 65, 100];
+    const sizes = [90, 85, 86, 75, 70];
 
     for (const icon of loadedIcons) {
       iconNodes.push({
@@ -84,7 +84,7 @@
   }
 
 function drawIcon(n) {
-  const maxSize = 32; // tamaño base (ajústalo)
+  const maxSize = n.size; // tamaño base (ajústalo)
 
   const ratio = n.img.width / n.img.height;
 
